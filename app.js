@@ -14,6 +14,7 @@ fetch('images.json')
       // Create list item
       const listItem = document.createElement('div')
       listItem.className = 'item'
+      listItem.setAttribute('data-theme', item.textTheme || 'light')
       listItem.innerHTML = `
         <img src="${item.src}" alt="">
         <div class="content">
