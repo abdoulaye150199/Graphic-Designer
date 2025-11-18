@@ -5,7 +5,7 @@ body{
     background-color: #000;
     color: #eee;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 a{
@@ -31,12 +31,12 @@ header a{
 }
 
 a.active{
-    background: #630000cb;
+    background: #003063cb;
     border-radius: 2px;
 }
 
 header a:hover{
-    background: #fe4141cb;
+    background: #4169e1cb;
     border-radius: 2px;
 }
 
@@ -75,12 +75,12 @@ header a:hover{
 
 .slider .list .item .content .title,
 .slider .list .item .content .type{
-    font-size: 5em;
+    font-size: 6.5em;
     font-weight: bold;
     line-height: 1.3em;
 }
 .slider .list .item .type{
-    color: #6e0000cb;
+    color: #0066ffcb;
 }
 .slider .list .item .button{
     display: grid;
@@ -92,12 +92,13 @@ header a:hover{
 .slider .list .item .button button{
     color: aliceblue;
     border: none;
-    background-color: #710000cb;
+    background-color: #0050cc;
     font-family: Poppins;
     font-weight: 500;
     cursor: pointer;
     transition: 0.4s;
     letter-spacing: 2px;
+    font-size: 14px;
 }
 
 
@@ -151,7 +152,7 @@ header a:hover{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #650000cb;
+    background-color: #0052ffcb;
     border: none;
     color: #fff;
     font-family: monospace;
@@ -299,6 +300,6 @@ header a:hover{
         padding-right: 0;
     }
     .slider .list .item .content .title{
-        font-size: 50px;
+        font-size: 60px;
     }
 }
