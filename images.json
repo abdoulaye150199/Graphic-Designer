@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/img1.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "TEKS est une marque dédiée au multisport, offrant une gamme complète d'équipements et services pour diverses disciplines sportives. L'identité visuelle moderne avec ses accents bleus lumineux évoque le dynamisme, la performance et l'innovation technologique dans le domaine sportif. Le logo géométrique symbolise la précision et l'excellence athlétique"
+  },
+  {
+    "src": "images/img2.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "SENTERANGA est une entreprise polyvalente dans le secteur primaire, combinant l'agriculture, l'élevage et la pêche. Le logo aux teintes naturelles (vert pour la végétation, jaune pour les récoltes) reflète l'engagement envers la production durable et la richesse des ressources naturelles. Les lauriers symbolisent l'excellence et la qualité des produits."
+  },
+  {
+    "src": "images/img3.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "GLOBAL BUSINESS SUPPLY est une entreprise spécialisée dans la construction et l'immobilier à dimension internationale. Le globe représente leur portée mondiale, tandis que les grues et bâtiments illustrent leur expertise en développement immobilier et construction. Le design industriel en bleu et gris évoque la fiabilité, le professionnalisme et l'envergure internationale de leurs projets."
+  },
+  {
+    "src": "images/img4.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": " SUCCÈS est une marque de cosmétiques haut de gamme incarnant le luxe et l'élégance. Le logo ailé doré symbolise l'aspiration à la beauté et à l'excellence. La gamme de produits (shampoings notamment) est conçue pour apporter brillance et souplesse aux cheveux. Le slogan With Success, be the best version of yourself reflète la philosophie de la marque : révéler la meilleure version de soi-même à travers des soins de qualité supérieure."
+  },
+  {
+    "src": "images/img5.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "SUCCÈS est une marque de cosmétiques haut de gamme incarnant le luxe et l'élégance. Le logo ailé doré symbolise l'aspiration à la beauté et à l'excellence. La gamme de produits (shampoings notamment) est conçue pour apporter brillance et souplesse aux cheveux. Le slogan With Success, be the best version of yourself reflète la philosophie de la marque : révéler la meilleure version de soi-même à travers des soins de qualité supérieure."
+  },
+  {
+    "src": "images/img6.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "MINALI TRADING SUARL est une société immobilière offrant des services complets dans le secteur de l'habitat et du commerce immobilier. Le logo aux chevrons ascendants symbolise la croissance, la construction et la progression. Les couleurs bleues représentent la confiance et le professionnalisme, essentiels dans les transactions immobilières. L'entreprise propose un accompagnement personnalisé pour tous les projets immobiliers."
+  },
+  {
+    "src": "images/img7.jpg",
+    "title": "WALLPAPER",
+    "type": "ANIME",
+    "description": "SAJ SOLUTION est une entreprise spécialisée dans les solutions informatiques innovantes. Le logo aux teintes bleues lumineuses et au design numérique évoque la technologie de pointe, l'innovation digitale et la modernité. L'esthétique néon sur fond sombre représente l'univers high-tech et la capacité de l'entreprise à éclairer les défis technologiques de ses clients avec des solutions informatiques performantes et avant-gardistes."
+  }
+]
