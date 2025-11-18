@@ -20,9 +20,7 @@ fetch('images.json')
           <div class="title">${item.title}</div>
           <div class="type">${item.type}</div>
           <div class="description">${item.description}</div>
-          <div class="button">
-            <button>SEE MORE</button>
-          </div>
+
         </div>
       `
       sliderList.appendChild(listItem)
