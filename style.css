@@ -295,11 +295,293 @@ header a:hover{
         opacity: 0;
     }
 }
-@media screen and (max-width: 678px) {
-    .slider .list .item .content{
-        padding-right: 0;
+
+/* ===== MEDIA QUERIES - RESPONSIVE DESIGN ===== */
+
+/* Tablettes et écrans moyens (768px à 1024px) */
+@media screen and (max-width: 1024px) {
+    header{
+        width: 90%;
     }
-    .slider .list .item .content .title{
-        font-size: 60px;
+    
+    .slider .list .item .content{
+        width: 90%;
+        padding-right: 20%;
+    }
+    
+    .slider .list .item .content .title,
+    .slider .list .item .content .type{
+        font-size: 5em;
+    }
+    
+    .slider .list .item .button{
+        grid-template-columns: repeat(2, 100px);
+    }
+    
+    .thumbnail .item{
+        width: 120px;
+        height: 180px;
+    }
+    
+    .nextPrevArrows{
+        right: 50%;
+        width: 250px;
+    }
+}
+
+/* Petites tablettes (768px) */
+@media screen and (max-width: 768px) {
+    header{
+        width: 95%;
+        height: 45px;
+    }
+    
+    header a{
+        font-size: 14px;
+        padding: 4px 8px;
+        margin-right: 3px;
+    }
+    
+    .slider .list .item .content{
+        top: 25%;
+        width: 95%;
+        padding-right: 15%;
+    }
+    
+    .slider .list .item .content .title,
+    .slider .list .item .content .type{
+        font-size: 3.5em;
+    }
+    
+    .slider .list .item .button{
+        grid-template-columns: repeat(2, 90px);
+        grid-template-rows: 35px;
+        gap: 3px;
+    }
+    
+    .slider .list .item .button button{
+        font-size: 12px;
+    }
+    
+    .thumbnail{
+        bottom: 30px;
+        gap: 15px;
+    }
+    
+    .thumbnail .item{
+        width: 100px;
+        height: 150px;
+    }
+    
+    .nextPrevArrows{
+        top: 75%;
+        right: 50%;
+        width: 200px;
+    }
+    
+    .nextPrevArrows button{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+/* Téléphones paysage et petites tablettes (600px) */
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+    
+    header{
+        width: 100%;
+        height: 40px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    header a{
+        font-size: 12px;
+        padding: 3px 6px;
+        margin-right: 2px;
+    }
+    
+    .slider{
+        margin-top: -40px;
+    }
+    
+    .slider .list .item .content{
+        top: 30%;
+        width: 95%;
+        padding-right: 10%;
+    }
+    
+    .slider .list .item .content .title,
+    .slider .list .item .content .type{
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+    
+    .slider .list .item .button{
+        grid-template-columns: repeat(2, 75px);
+        grid-template-rows: 30px;
+        gap: 3px;
+        margin-top: 15px;
+    }
+    
+    .slider .list .item .button button{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    
+    .thumbnail{
+        bottom: 20px;
+        gap: 10px;
+    }
+    
+    .thumbnail .item{
+        width: 80px;
+        height: 120px;
+    }
+    
+    .nextPrevArrows{
+        top: 70%;
+        right: 50%;
+        width: 150px;
+        gap: 5px;
+    }
+    
+    .nextPrevArrows button{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+/* Téléphones (480px et moins) */
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
+    
+    header{
+        width: 100%;
+        height: 35px;
+        padding: 0 5px;
+    }
+    
+    header a{
+        font-size: 11px;
+        padding: 2px 5px;
+        margin-right: 1px;
+    }
+    
+    .slider{
+        margin-top: -35px;
+    }
+    
+    .slider .list .item .content{
+        top: 35%;
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    .slider .list .item .content .title,
+    .slider .list .item .content .type{
+        font-size: 1.8em;
+        line-height: 1.1em;
+    }
+    
+    .slider .list .item .button{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 2px;
+        margin-top: 10px;
+    }
+    
+    .slider .list .item .button button{
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        padding: 5px;
+    }
+    
+    .thumbnail{
+        bottom: 15px;
+        gap: 8px;
+    }
+    
+    .thumbnail .item{
+        width: 60px;
+        height: 90px;
+    }
+    
+    .nextPrevArrows{
+        top: 65%;
+        right: 50%;
+        width: 120px;
+        gap: 3px;
+    }
+    
+    .nextPrevArrows button{
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+/* Très petits écrans (320px) */
+@media screen and (max-width: 360px) {
+    body{
+        font-size: 11px;
+    }
+    
+    header{
+        height: 30px;
+        padding: 0 3px;
+    }
+    
+    header a{
+        font-size: 10px;
+        padding: 1px 4px;
+    }
+    
+    .slider{
+        margin-top: -30px;
+    }
+    
+    .slider .list .item .content{
+        top: 40%;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    
+    .slider .list .item .content .title,
+    .slider .list .item .content .type{
+        font-size: 1.4em;
+    }
+    
+    .slider .list .item .button{
+        margin-top: 8px;
+    }
+    
+    .slider .list .item .button button{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    .thumbnail .item{
+        width: 50px;
+        height: 75px;
+    }
+    
+    .nextPrevArrows{
+        top: 60%;
+        width: 100px;
+    }
+    
+    .nextPrevArrows button{
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
     }
 }
